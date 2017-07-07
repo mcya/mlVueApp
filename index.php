@@ -1,0 +1,1 @@
+echo $_POST['sendProfile'];
