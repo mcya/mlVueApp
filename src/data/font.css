@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'iconfont';  /* project id："185560" */
+  src: url('//at.alicdn.com/t/font_n8g2hjrtkw1dobt9.eot');
+  src: url('//at.alicdn.com/t/font_n8g2hjrtkw1dobt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_n8g2hjrtkw1dobt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_n8g2hjrtkw1dobt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_n8g2hjrtkw1dobt9.svg#iconfont') format('svg');
+}
+.iconfont,.p-link li:after{font-family:"iconfont";}
+.iconfont{
+	font-style:normal;
+	text-align:center;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+/* 图标大小 */
+.icon-font1,.p-link li:after{font-size:1rem;}
+.icon-font2{font-size:1.2rem;}
+.icon-font3{font-size:1.3rem;}
+.icon-font4{font-size:1.4rem;}
+.icon-font9{font-size:.9rem;}
+.icon-font10{font-size:5rem;}
+
+/* 图标颜色 */
+.icon-y:after{color:#f39726}/*黄*/
+.icon-r:after{color:#f5594d}/*红*/
+.icon-b:after{color:#1e91e2}/*蓝*/
+.icon-o:after{color:#ffea04;}/*橙*/
+.icon-g:after{color:#cfcfcf;}/*灰*/
+.icon-g80,.p-link li:after{color:#9ca4ad;}/* 深灰 */
+.icon-green:after{color:#4bf162;}/*绿*/
+.icon-violet:after{color:#4b72f1;}/*紫*/
+.icon-w:after,.color-w{color:#fff;}/*白*/
+/* 图标类型 */
+.p-link li:after{content: '\e631';float: right;margin-right:-0.5rem;}/* 向右 */
+.icon-tool:after{content: '\e60c'}/* 导游工具*/
+.icon-purse2:after{content: '\e600'}/* 储值 */
+.icon-crown:after{content: '\e650'}/* 皇冠 */
+.icon-bean-0:after{content:'\e649';}/* 代金券 */
+.icon-bean-1:after{content: '\e611'}/* 商城积分 */
+.icon-bean-2:after,.icon-diam:after{content: '\e63b'}/* 钻石 */
+.icon-bean-3:after{content:'\e63a';}/*贝壳*/
+.icon-bean-4:after{content:'\e639';}/*珍珠*/
+.icon-bean:after{content: '\e602'}/* 金银豆 */
+.icon-purse1:after{content: '\e603'}/* 提现 */
+.icon-info:after{content: '\e604'}/* 导游信息*/
+.icon-ask:after{content: '\e60e'}/*申请导游*/
+.icon-card:after{content: '\e606';}/* high go卡*/
+.icon-set:after{content: '\e607';}/* 设置*/
+.icon-order:after{content: '\e608'}/*订单*/
+.icon-collect:after{content: '\e63f'}/*收藏*/
+.icon-love:after{content: '\e609'}/*爱心*/
+.icon-flag:after{content: '\e60a'}/* 带团助手*/
+.icon-group:after{content: '\e60b'}/* 创建群组*/
+.icon-address:after{content:'\e610';}/* 地址 */
+.icon-qrcode:after{content:'\e63e';}/* 二维码 */
+.icon-train:after{content:'\e618';}/* 培训 */
+.icon-tiku:after{content:'\e62d';}/* 题库 */
+.icon-video:after{content:'\e63c';}/* 直播 */
+.icon-weixin:after{content:'\e605';color:#3cb034;}/* 微信 */
+.icon-alipay:after{content:'\e60f';color:#1296db;}/* 支付宝 */
+.icon-tick:after{content:'\e64a';}/* 对勾 */
+.icon-search:after{content:'\e61d';}/* 搜索 */
+.icon-search-close:after{content:'\e612';}/* 清除搜索 */
+.icon-me:after{content:'\e648';}/* 我的 */
+.icon-crowd:after{content:'\e647';}/* 圈子 */
+.icon-home:after{content:'\e646';}/* 首页 */
+.icon-logo:after{content:'\e64e';}/* 标志 */
+.icon-have:after{content:'\e645';}/* 好玩 */
+.icon-tour:after{content:'\e644';}/* 导游 */
+.icon-fabu:after{content: '\e636'}/* 发布 */
+.icon-yuying:after{content:'\e628';}/* 语音 */
+.icon-comment:after{content:'\e64f';}/* 评论 */
+.icon-question:after{content:'\e62f';}/* 疑问 */
+.icon-more:after{content:'\e631';}/* 更多 */
+
+
+
+

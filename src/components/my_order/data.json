@@ -1,0 +1,119 @@
+{
+    "code": "0000",              //0000成功，其他失败
+    "msg": "分页查询成功",
+    "page": "1",                 //当前页
+    "pageCount": "12",           //总页数
+    "pageSize": "1",             //页大小
+    "rowCount": "1",             //当前页记录数
+    "total": "12",               //总记录数
+    "result": [
+        {
+            "clientIp": "192.168.100.100",                      //用户客户端IP
+            "createTime": "1459822396000",                      //创建时间
+            "currency": "CNY",                                  //币种  CNY：人名币
+            "endDate": "",
+            "expTime": "20160405104316",                        //失效时间
+            "id": "12",
+            "orderCancel": "",                                 //订单取消
+            "orderDate": "20160405",                           //订单日期
+            "orderTime": "101316",                            //订单时间
+            "payDate":"20160405",                              //支付日期
+            "payTime":"111316",                                //支付时间
+            "orderDescribe": {
+                "address": "广州市越秀区东风西路140号东方金融大厦15楼",         //联系人地址  
+                "addressType": "1", 							  //地址类型 1:工作 2:家庭  3:其他
+                "contactsName": "name0",                          //联系人姓名
+                "createTime": "1463471072000", 					  
+                "favourableFee": "0.00",						  //优惠金额
+                "favourableId": "1234560",						  //优惠编号
+                "id": "115",
+                "invoice": "zzzzzzzz有限公司",					  //发票抬头
+                "invoiceMethod": "1",							  //开票方式 0:不开发票1:纸质发票2:电子发票
+                "invoiceType": "0",                               //发票类型 0:个人 1公司
+                "mobile": "13888888880",						  //联系人手机号
+                "orderId": "2016051700000145",					  //订单号
+                "postcode": "521000",							  //邮编
+                "remark": "RemarkRemarkRemarkRemarkRemark",       //描述				
+                "tel": "020-02312360",							  //联系人电话				
+                "transportDayType": "0",						  //收货时间类型 0:周一至周五 1:周一至周日均可 2:周六日、节假日
+                "transportFee": "0.00",							  //配送金额
+                "transportId": "",								  //物流承运商编号
+                "transportNum": "",								  //物流编号
+                "transportTime": "0",							  //配送时间 0:白天 1:全天
+                "updateTime": "1463471075000"
+            },
+            "orderGoods": [
+                {
+                    "adultMarketPrice": "0.0",                  //成人市场价格       
+                    "adultNum": "1",                            //成人人数
+                    "adultSellCount": "945",                    //剩余成人销售人数
+                    "adultSellPrice": "8.0",                    //成人销售价格
+                    "childMarketPrice": "0.0",                  //儿童市场价格
+                    "childNum": "0",                            //订单儿童人数
+                    "childSellCount": "0",                      //剩余儿童销售人数
+                    "childSellPrice": "",                       //儿童销售价格
+                    "createTime": "1463540273000",              //
+                    "goodsCategory": "V",                       //商品类别 实物:R 虚拟:V
+                    "goodsId": "46",                            //商品ID
+                    "goodsInsurances": [
+                        {
+                            "createTime": "1463540273000", 
+                            "id": "152",
+                            "insuranceId": "1",                 //保险ID
+                            "insuranceNum": "1",                //保险数量
+                            "insurancePrice": "2.0",            //保险价格
+                            "orderGoodsId": "1",                //
+                            "updateTime": "1463540276000"
+                        }......
+                    ],
+                    "goodsName": "乐在骑行",                    //商品名称
+                    "goodsNum": "0",                            //商品数量
+                    "goodsTourists": [
+                        {
+                            "createTime": "1463540273000",             
+                            "id": "156",
+                            "orderGoodsId": "1",               //
+                            "touristCardNo": "445896326598741258",    //证件号
+                            "touristCardType": "0",           //旅客证件类型 0:身份证 1:护照 9:其它
+                            "touristMobile": "13888888880",   //旅客手机号
+                            "touristName": "张宇0",           //旅客姓名
+                            "touristSex": "1",                //性别 0:未知 1:男 2:女
+                            "touristType": "1",               //旅客类型 1:成人 2:儿童
+                            "updateTime": "1463540276000"     //
+                        }.....
+                    ],
+                    "goodsType": "line",                      //商品类别名称  local：地陪  line：线路  prelocal：地陪预订  mall：商城    hotel：酒店    flight：机票
+                    "groupNo": "20160427C8McMSyen5",          //出团编号
+                    "id": "1",
+                    "orderId": "2016051800000148",            //订单号
+                    "remark": "goods",                        //商品描述
+                    "singleRoomNum": "0",                     //单房差数
+                    "singleRoomPrice": "8.0",                 //单房差价
+                    "skuId": "0",                             //商品SKU
+                    "source": "mlwj",                         //来源平台  mlx：美丽行   mlwj：美丽玩家
+                    "tripDate": "20160518",                   //出团日期
+                    "updateTime": "1463540276000",            //
+                    "visaNum": "0",                           //签证数
+                    "visaPrice": "6.0"                        //签证价格
+                }
+            ],
+            "orderId": "2016040500000137",                    //订单号
+            "orderStatus": "W",                               //订单状态 预登记:C1 未支付:W 已支付:S 已完成:SF 已取消:C2 退款审核中:RC  交易失败:F  部分退款:RP 全额退款:RF 已删除:D'           
+            "orderType": "line",
+            "payFee": "2900.0",                              //应付金额
+            "refundFee": "0.0",                              //退款金额
+            "refundFlag": "0",                               //退款标识 0:用户发起退款 1:重复支付退款
+            "remark": "RemarkRemarkRemarkRemarkRemark",      //订单备注
+            "respCode": "",                                  //返回码
+            "respMsg": "",                                   //返回描述
+            "startDate": "",
+            "sysCnl": "ANDROID",                             //下单终端渠道：WAP、IOS、ANDROID、WEB
+            "totalMarketPrice": "8000.0",                    //订单市场总额
+            "totalSellPrice": "2860.0",                      //订单总销售额
+            "updateTime": "1459822396000",
+            "userId": "12345678",                            //用户ID
+            "userName": "user1"                              //用户名称
+        }...
+    ]
+    
+}
